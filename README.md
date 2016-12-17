@@ -14,13 +14,18 @@
 
 [PHP](https://php.net) 5.5.9+, and [Composer](https://getcomposer.org) are required.
 
-Add the Laravel Facebook Message package.
+Add the Laravel Facebook Message package to your `composer.json` file.  
 
-Run:
+```json
+{
+    "require": {
+        "denise92/facebook-message": "dev-master"
+    }
+}
+```
 
-```
-composer require denise92/facebook-message
-```
+You'll then need to run `composer update` to download it and have the autoloader updated.
+
 
 ### Service Provider
 
