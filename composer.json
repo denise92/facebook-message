@@ -1,0 +1,24 @@
+{
+    "name": "denise92/facebook-message",
+    "description": "Facebook messenger-platform with Laravel",
+    "keywords": ["Facebook", "messenger", "webhook", "laravel", "laravel5"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.2.*"
+    },
+    "license": "1.0",
+    "authors": [
+        {
+            "name": "Denise",
+            "email": "rei7902@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Denise92\\FacebookMessage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
