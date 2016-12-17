@@ -4,7 +4,7 @@
 
 > This is package for Laravel and Lumen 5.0, 5.1, 5.2, & 5.3
 
-** Before you start, you should fllow Facebook message setup.**
+> **Note:** Before you start, you should follow Facebook message setup.
 
 1. [Create an App and a Page](https://developers.facebook.com/docs/messenger-platform/guides/setup)
 
