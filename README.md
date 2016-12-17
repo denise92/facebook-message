@@ -68,4 +68,21 @@ FB_ACCESS_TOKEN=YourPagesAccessToken
 ```
 
 
+#### How to setup webhook from Facebook:
+
+Callback URL: https://your-web.com/fb/webhook
+
+This url is defined in src/route.php, you can rewrite it if you like:
+
+```
+Route::get('test/webhook', '\Denise92\FacebookMessage\FacebookMessageController@webhook');
+Route::post('test/webhook', '\Denise92\FacebookMessage\FacebookMessageController@conversation');
+```
+
+Verify Token: any-string-you-like
+
+Subscription Fields: You can checked all.
+
+
+
 
