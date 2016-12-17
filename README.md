@@ -85,5 +85,5 @@ Verify Token: any-string-you-like
 
 Subscription Fields: You can checked all.
 
-Then press Save button. If Facebook get the verify code from https://your-web.com/fb/webhook, than you can start chat with your message bot now.
+Then press Save button. If Facebook get the verify code from https://your-web.com/fb/webhook, than you can start chat with your Pages message bot now.
 
