@@ -49,7 +49,7 @@ $app->register(Denise92\FacebookMessage\FacebookMessageServiceProvider::class);
 After [Create an App and a Page](https://developers.facebook.com/docs/messenger-platform/guides/setup), you'll need to provide the app ID, page ID and Access token. In Laravel you can publish the configuration file with `artisan`.
 
 ```bash
-$ php artisan vendor:publish --provider="Denise92\FacebookMessage\FacebookMessageServiceProvider" --tag="config"
+$ php artisan vendor:publish
 ```
 
 > **Where's the file?** Laravel 5 will publish the config file to `/config/facebook_message.php`.
