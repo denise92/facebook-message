@@ -14,7 +14,7 @@
 
 [PHP](https://php.net) 5.5.9+, and [Composer](https://getcomposer.org) are required.
 
-Add the Laravel Facebook Message package to your `composer.json` file.
+Add the Laravel Facebook Message package to your `composer.json` file.  
 
 ```json
 {
@@ -23,6 +23,8 @@ Add the Laravel Facebook Message package to your `composer.json` file.
     }
 }
 ```
+
+You'll then need to run `composer update` to download it and have the autoloader updated.
 
 
 ### Service Provider
@@ -63,12 +65,12 @@ By default the configuration file will look to environment variables for your ap
 ```
 FB_APP_ID=1234567890
 FB_PAGE_ID=987654321
-FB_VERIFY_TOKEN=SomeFooAppToken
+FB_VERIFY_TOKEN=any-string-you-like
 FB_ACCESS_TOKEN=YourPagesAccessToken
 ```
 
 
-#### How to setup webhook from Facebook:
+### How to setup webhook from Facebook:
 
 Callback URL: https://your-web.com/fb/webhook
 
@@ -83,6 +85,5 @@ Verify Token: any-string-you-like
 
 Subscription Fields: You can checked all.
 
-
-
+Then press Save button. If Facebook get the verify code from https://your-web.com/fb/webhook, than you can start chat with your message bot now.
 
