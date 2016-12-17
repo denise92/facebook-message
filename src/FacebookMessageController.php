@@ -51,7 +51,7 @@ class FacebookMessageController extends Controller {
         // Get the returned message
         if(isset($input['entry'][0]['messaging'][0]['message']['text']))
             $message = $input['entry'][0]['messaging'][0]['message']['text'];
-        if(!$ || !$message){
+        if(!$sender || !$message){
             // 不合法的連結，顯示對話按鈕頁面
             return 'Error, empty sender or message.';
         }
